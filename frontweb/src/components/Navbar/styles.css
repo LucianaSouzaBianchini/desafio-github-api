@@ -1,0 +1,8 @@
+.main-nav {
+    padding-left: 40px;
+    height: 62px;
+}
+.nav-logo-text, .nav-logo-text:hover {
+    color: white;
+    display: flex;
+}

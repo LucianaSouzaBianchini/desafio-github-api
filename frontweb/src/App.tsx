@@ -1,9 +1,13 @@
 import './assets/styles/custom.scss';
 import './App.css';
+import Navbar from 'components/Navbar';
 
 function App() {
   return (
-    <h1>Hello Desafio Github API</h1>
+    <>
+      <Navbar />
+      <h2>Hello Desafio Github API</h2>
+    </>
   );
 }
 
