@@ -1,0 +1,22 @@
+.btn-icon {
+    width: 100px;
+    height: 40px;
+}
+
+@media (min-width: 576px) {
+    .btn-icon p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    .btn-icon p {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 992px) {
+    .btn-icon p {
+        font-size: 22px;
+    }
+}

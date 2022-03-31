@@ -1,0 +1,49 @@
+.home-container {
+  padding: 15px;
+  height: 300px;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid red;
+}
+
+.home-container h2 {
+  padding: 30px 0 10px 0;
+  color: #000000;
+}
+
+.home-container h4 {
+  color: #7e7e7e;
+  font-size: 1em;
+  margin-bottom: 30px;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    font-size: 20px;
+  }
+  .home-container h2 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  .home-container {
+    padding-left: 20px;
+    text-align:start;
+    font-size: 24px;
+  }
+  .home-container h2 {
+    font-size: 36px;
+  }  
+}
+
+@media (min-width: 992px) {
+  .home-container {
+    padding-left: 20px;
+    text-align:start;
+    font-size: 28px;
+  }
+  .home-container h2 {
+    font-size: 40px;
+  }  
+}

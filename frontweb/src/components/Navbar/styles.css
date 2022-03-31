@@ -1,8 +1,33 @@
 .main-nav {
-    padding-left: 40px;
-    height: 62px;
+  padding-left: 20px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  /*  justify-content: center;*/
 }
-.nav-logo-text, .nav-logo-text:hover {
-    color: white;
-    display: flex;
+
+.nav-logo-text,
+.nav-log-text a,
+.nav-log-text h1,
+.nav-logo-text:hover {
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media (min-width: 576px) {
+  .nav-log-text h1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 768px) {
+  .nav-log-text h1 {
+    font-size: 26px;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav-log-text h1 {
+    font-size: 28px;
+  }
 }

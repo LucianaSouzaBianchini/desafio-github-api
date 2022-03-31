@@ -1,0 +1,25 @@
+.home-container {
+  padding-left: 40px;
+  height: 838px;
+  border: 2px solid red;
+}
+
+.home-card {
+    border: 2px solid blue;
+  }
+
+  .home-content-container {
+
+    border: 2px solid yellow;
+  }
+
+.home-container h2 {
+  padding: 20px;
+  color: #000000;
+  font-size: 48px;
+}
+
+.home-container h4 {
+  color: #7e7e7e;
+  font-size: 24px;
+}
