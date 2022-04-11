@@ -1,17 +1,18 @@
 import ButtonIcon from 'components/ButtonIcon';
-import Navbar from 'components/Navbar';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 const Home = () => {
   return (
-    <>
-      <Navbar />
-      <div className="home-container">
-        <h2>Desafio Github API</h2>
-        <h4>Bootcamp Spring React - DevSuperior</h4>
-        <ButtonIcon/>
+    <div className="home-container">
+      <h2>Desafio Github API</h2>
+      <h4>Bootcamp Spring React - DevSuperior</h4>
+      <div>
+        <Link to="/user">
+          <ButtonIcon text="Começar" />
+        </Link>
       </div>
-    </>
+    </div>
   );
 };
 

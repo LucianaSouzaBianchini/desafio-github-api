@@ -1,6 +1,16 @@
-.btn-icon {
+.btn {
     width: 100px;
     height: 40px;
+
+}
+.btn p {
+    color: white;
+    font-weight: 400;
+}
+
+.start-button{
+    padding: 0;
+    text-align: center;
 }
 
 @media (min-width: 576px) {
